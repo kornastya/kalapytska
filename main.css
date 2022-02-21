@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board__zone{
+    display: flex;
+}
+
+.board{
+    width: 300px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.board:last-child{
+    border-right: none;
+}
+
+.card{
+    height: 150px;
+    border: 2px solid black;
+    background: rgb(207, 145, 145);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card__zone{
+    min-height: 150px;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(243, 169, 109);
+    margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Kannban board</h1>
+    <button class="btn new__board">Add new board</button>
+    <section class="board__zone">
+        <div class="board">
+            <h2 class="board__title">To Do</h2>
+            <button class="btn new__card">Add new card</button>
+            <div class="card__zone">
+                <div class="card" draggable="true">
+                    <h3 class="card__title">Title1</h3>
+                    <p class="card__text">Test</p>
+                </div>
+                <div class="card" draggable="true">
+                    <h3 class="card__title">Title2</h3>
+                    <p class="card__text">Test</p>
+                </div>
+                <div class="card" draggable="true">
+                    <h3 class="card__title">Title3</h3>
+                    <p class="card__text">Test</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="board">
+            <h2 class="board__title">In Progress</h2>
+            <div class="card__zone">
+
+            </div>
+        </div>
+        <div class="board">
+            <h2 class="board__title">Done</h2>
+            <div class="card__zone"></div>
+            
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
